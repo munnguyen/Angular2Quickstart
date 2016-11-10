@@ -83,6 +83,8 @@ You're ready to write your application.
 
 We've captured many of the most useful commands in npm scripts defined in the `package.json`:
 
+* `gulp` - build the application (This will build the application into it own folder) 
+* `npm run dockerexpress` - run the express server. 
 * `npm start` - runs the compiler and a server at the same time, both in "watch mode".
 * `npm run tsc` - runs the TypeScript compiler once.
 * `npm run tsc:w` - runs the TypeScript compiler in watch mode; the process keeps running, awaiting changes to TypeScript files and re-compiling when it sees them.
