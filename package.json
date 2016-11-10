@@ -15,6 +15,7 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "webdriver:update": "webdriver-manager update",
+    "build-express": "gulp && node ./build/server.js",
     "express": "\"node ./build/server.js\"",
     "dockerexpress": "tsc && concurrently \"tsc -w\" \"node server.js\"",
     "build": "gulp",

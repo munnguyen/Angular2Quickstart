@@ -48,7 +48,7 @@ gulp.task("server", function () {
 });
 /* copy node server to build folder */
 gulp.task("express", function () {  
-    return gulp.src(["server.js", "package.json", "web.config"])
+    return gulp.src(["server.js", "package.json", "web.config", "dockerfile"])
         .pipe(gulp.dest("build"));
 });
 /* styles and other assets */
