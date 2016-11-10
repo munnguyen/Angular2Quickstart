@@ -1,6 +1,7 @@
 # To build and run with Docker:
 #  need to be lowercase
 #  $ docker build -t ng-app .
+#  $ docker run -it --rm -p 4000:4000 ng-app
 #  $ docker run -it --rm -p 3000:3000 -p 3001:3001 ng-app
 #  $ docker run --name testdb -p 27017:27017 -d mongo:3
 #  $ docker run --name hapi-app -p 3000:3000 -d -e MONGO_HOST=testdb --link testdb ng-app
