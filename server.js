@@ -6,7 +6,8 @@ var express = require('express'),
     bodyParser = require('body-parser'),
     cookieParser = require('cookie-parser'),
     session = require('express-session'),
-    MongoStore = require('connect-mongo')(session);
+    MongoStore = require('connect-mongo')(session)
+    mongoose = require('mongoose');
 
 var config = require('./server/config/appSetting'); // get db config file
 
