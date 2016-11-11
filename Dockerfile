@@ -31,7 +31,7 @@ COPY . /appName
 RUN chown -R nodejs:nodejs /appName
 USER nodejs
 
-ENV DB="mongodb://ibm564-r90jnw8d/node-rest-auth"
+ENV DB="mongodb://yourDbLocation/databasename"
 ENV PORT=4000
 #CMD npm start
 #EXPOSE 8080
